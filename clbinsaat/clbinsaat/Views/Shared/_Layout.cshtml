@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="/">
+                <div id="logo"></div>
+            </a>
+            <div id="social-media">
+                <div class="social">
+                    <a href="//www.facebook.com">
+
+                        <img src="~/Content/img/fb.png" width="48" height="48" />
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="//www.instagram.com">
+
+                        <img src="~/Content/img/instagram.jpg" width="48" height="48" />
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="//www.twitter.com">
+
+                        <img src="~/Content/img/twt.png" width="48" height="48" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <a href="/">
+                <div class="nav-item">
+                    <span>ANASAYFA</span>
+                </div>
+            </a>
+            <a href="/insaatlarimiz">
+                <div class="nav-item">
+                    <span>İNŞAATLARIMIZ</span>
+                </div>
+            </a>
+            <a href="/uye">
+                <div class="nav-item">
+                    <span>GİRİŞ YAP</span>
+                </div>
+            </a>
+            <a href="/hakkimizda">
+                <div class="nav-item">
+                    <span>HAKKIMIZDA</span>
+                </div>
+            </a>
+            <a href="/iletisim">
+                <div class="nav-item-iletisim">
+                    <span>KAYIT OL</span>
+                </div>
+            </a>
+
+ 
+
+        </div>
+        <div id="content">@RenderBody()</div>
+        <div id="footer"><small>2019 &copy; ÇELEBİLER İNŞAAT|TÜM HAKLARI SAKLIDIR</small></div>
+    </div>
+
+</body>
+</html>

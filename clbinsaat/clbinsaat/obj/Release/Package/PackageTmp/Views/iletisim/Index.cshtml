@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Kayıt Ol";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>KAYIT OL</h2>
+<br />
+<br />
+<form action="/iletisim/Create" method="post">
+
+    <label>AD:</label>
+    <br />
+    <input type="text" name="userName" />
+    <br />
+    <br />
+    <label>ŞİFRE</label>
+    <br />
+    <input type="text" name="userPass" />
+    <br />
+    <br />
+    <input type="submit" value="KAYIT OL" />
+
+
+</form>
+
+
